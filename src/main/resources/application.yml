@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: AI-Recruiter-backend
+  output:
+    ansi:
+      enabled: ALWAYS
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+springdoc:
+  swagger-ui:
+    operationsSorter: alpha
