@@ -6,6 +6,9 @@ spring:
   output:
     ansi:
       enabled: ALWAYS
+  ai:
+    openai:
+      api-key: must-be-provided
 management:
   endpoints:
     web:
